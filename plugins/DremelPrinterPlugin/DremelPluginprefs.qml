@@ -45,7 +45,6 @@ UM.Dialog
 
         GroupBox {
             title: "General Settings"
-            color: "#000000"  // Black text color
             width: Math.round(parent.width)
             height: 85 * screenScaleFactor
 
@@ -55,12 +54,11 @@ UM.Dialog
                 width: Math.round(parent.width)
                 anchors.top: parent.top
 
-                CheckBox {
+                UM.CheckBox {
                     id: screenshotCB
                     height: UM.Theme.getSize("checkbox").height
                     width: Math.round(parent.width)
                     text: "Select Screenshot Manually"
-                    color: "#000000"  // Black text color
                     checked: checkBooleanVals(UM.Preferences.getValue("DremelPrinterPlugin/select_screenshot"))
                     onClicked: manager.setSelectScreenshot(checked)
                     spacing: UM.Theme.getSize("default_margin").width
@@ -101,7 +99,6 @@ UM.Dialog
             width: Math.round(parent.width)
             height: 60 * screenScaleFactor
             title: "Dremel 3D45 IP Address (for camera viewing only)"
-            color: "#000000"  // Black text color
 
             Row {
                 spacing: UM.Theme.getSize("default_margin").width
