@@ -12,3 +12,4 @@ RELEASE/
 
 # Ignore docs.zip file
 docs.zip
+tools/debug.log

@@ -158,7 +158,8 @@ subprocess.run(['python', '-m', 'grip', 'README.md', '--export', 'README.html'])
 pdf_command = [
     WKHTMLTOPDF_DIR.strip('"'),  # Remove quotes for subprocess list
     '--enable-local-file-access',
-    '-B', '13', '-L', '13', '-R', '13', '-T', '53',  # Margins
+    '--page-size', 'A4',
+    '-B', '20', '-L', '20', '-R', '20', '-T', '20',
     'README.html',
     os.path.join(PLUGIN_DIR, 'README.pdf')
 ]

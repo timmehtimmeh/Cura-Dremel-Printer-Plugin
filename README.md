@@ -37,6 +37,7 @@ This plugin is available within the Cura marketplace.  Users are encouraged to u
 
 | Cura Version | Last version of the 3D20 plugin that works with the version of Cura         | Supported Printers |
 |--------------|------------------------------------------------------------------------|-----|
+5.4 through 5.9 | [version 1.0.1](https://github.com/metalman3797/Cura-Dremel-Printer-Plugin/releases/tag/1.0.1) | 3D20, 3D40, 3D45|
 5.2 through 5.3 | [version 1.0.0](https://github.com/metalman3797/Cura-Dremel-Printer-Plugin/releases/tag/1.0.0) | 3D20, 3D40, 3D45|
 5.0 through 5.1 | [version 0.8.1](https://github.com/metalman3797/Cura-Dremel-Printer-Plugin/releases/tag/0.8.1) | 3D20, 3D40, 3D45|
 4.4 through 4.13.1 | [version 0.7.2](https://github.com/metalman3797/Cura-Dremel-Printer-Plugin/releases/tag/0.7.2) | 3D20, 3D40, 3D45|
@@ -77,6 +78,7 @@ Once the plugin has been installed you can use it by following the steps outline
 ![Select the Dremel Printer](./docs/addprinter.png)
 
 3. Select the type of filament you're using in your printer.  By default the 3D20 and 3D40 use the **Dremel PLA** filament, and the 3D45 uses the **Dremel ECO ABS** filament.  These filament definitions are included and installed with the plugin.
+
 ![Select the Filament](./docs/selectpla.png)
 
 4. Set the slicing options that you want from the print settings in the upper right corner of the screen.
@@ -158,6 +160,7 @@ The Dremel 3D45 is equipped with a camera that can be used to monitor the printe
 
 **Troubleshooting Camera Connections:**
 1.  While the camera window is open the plugin will try to connect to the camera at the IP address that was set.  While the plugin is connecting the window shows the number of attempts that it has made to connect to the camera stream, along with a button that allows you to open the website that the Dremel is using to connect to the camera.  If connection fails, click the button and a web browser will be opened allowing the user to try to connect to the Dremel via the browser.  If the browser cannot connect, then the plugin will not be able to connect either.  Check that the printer is on, that the printer's IP address is set correctly in the plugin, and that the computer is on the same network as the printer.
+
 ![Camera Streaming](./docs/camera/connecting.png)
 
 

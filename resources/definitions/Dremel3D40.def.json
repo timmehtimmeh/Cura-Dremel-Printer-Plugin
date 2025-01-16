@@ -22,10 +22,6 @@
             "Essentium_",
             "imade3d_",
             "chromatik_",
-            "dremel_tpu",
-            "dremel_petg",
-            "dremel_eco_",
-            "dremel_nylon",
             "3D-Fuel_",
             "bestfilament_",
             "emotiontech_",
@@ -55,7 +51,16 @@
             "zyyx_pro_",
             "octofiber_",
             "fiberlogy_",
-            "ultimaker_"
+            "ultimaker_",
+            "basf_ultrafuse",
+            "eazao_",
+            "jabil_",
+            "polymaker_",
+            "ultrafuse",
+            "dremel_tpu",
+            "dremel_nylon",
+            "dremel_petg",
+            "dremel_eco_abs"
         ]
     },
     "overrides": {

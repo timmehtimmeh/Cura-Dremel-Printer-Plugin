@@ -26,7 +26,6 @@
     <setting key="standby temperature">175</setting>
     <machine>
       <machine_identifier manufacturer="Dremel" product="Dremel3D45"/>
-      <setting key="hardware compatible">yes</setting>
     </machine>
   </settings>
 </fdmmaterial>
